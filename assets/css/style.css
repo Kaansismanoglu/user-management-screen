@@ -1,0 +1,138 @@
+body {
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.div1 {
+    display: flex;
+    margin-bottom: 10px;
+    background-color: rgb(244, 244, 244);
+    padding: 10px;
+}
+
+.div2 {
+    justify-content: space-between;
+    margin-right: 50px;
+    background-color: rgb(1, 115, 175);
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.div2 a {
+    color: white;
+    text-decoration: none;
+}
+
+.div3 {
+    justify-content: space-between;
+    margin-right: 50px;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.div4 {
+    justify-content: space-between;
+    margin-right: 50px;
+    background-color: rgb(77, 159, 199);
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.div4 input[type=submit] {
+    text-decoration: none !important;
+    color: white;
+    background-color: rgb(77, 159, 199);
+    border: none;
+}
+
+.div4 a {
+    text-decoration: none !important;
+    color: white;
+}
+
+.fa-plus:before {
+    color: white;
+
+}
+
+thead,
+tfoot {
+    background-color: rgb(1, 115, 175);
+    color: #fff;
+}
+
+tbody {
+    background-color: #e4f0f5;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+}
+
+table {
+    border: 1px solid rgb(246, 246, 246);
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    border-right: 0.1px solid rgb(246, 246, 246);
+    height: 100px;
+}
+
+td,
+th {
+    border: 1px solid rgb(190, 190, 190);
+    padding:10px 10px;
+    width: 400px;
+    text-align: left;
+}
+
+td {
+    text-align: left;
+}
+
+.main {
+    display: flex;
+}
+
+/**Form**/
+form {
+    justify-content: space-between;
+}
+
+.formtitle {
+    margin-left: 40px;
+    display: flex;
+    background-color: rgb(244, 244, 244);
+    padding: 20px;
+    margin-top: 12px;
+}
+
+.pos {
+    margin-top: 25px;
+    display: flex;
+    margin-left: 60px;
+}
+
+.label {
+    justify-content: space-between;
+    display: inline-flex;
+    align-items: center;
+}
+
+.form2 {
+    display: flex;
+    position: absolute;
+    margin-left: 150px;
+}
+
+.form2 input[type=text],
+select[type=checkbox] {
+    height: 30px;
+    width: 300px;
+    display: inline-flex;
+    margin-top: -15px;
+}
